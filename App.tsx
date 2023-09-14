@@ -1,8 +1,14 @@
-import React from 'React';
-import {Text} from 'react-native';
+import React from 'react';
+import {ScrollView, Text} from 'react-native';
+import Info from './src/components/Info';
 
 const App = () => {
-  return <Text>Ola Mundo !!</Text>;
+  return (
+  <ScrollView>
+    <Text>Ola Mundo !!</Text>
+    <Info />
+  </ScrollView>
+  )
 };
 
 export default App;
